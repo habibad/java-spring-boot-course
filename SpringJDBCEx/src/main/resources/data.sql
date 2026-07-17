@@ -1,0 +1,1 @@
+insert into student(rollNo, name, marks) values(102, 'anikur rahaman', 99)

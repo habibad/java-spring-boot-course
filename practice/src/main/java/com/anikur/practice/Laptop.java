@@ -1,8 +1,7 @@
 package com.anikur.practice;
+import org.springframework.stereotype.Repository;
 
-import org.springframework.stereotype.Component;
-
-@Component
+@Repository
 public class Laptop implements Computer{
     @Override
     public void code() {
