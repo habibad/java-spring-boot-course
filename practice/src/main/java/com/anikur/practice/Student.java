@@ -3,12 +3,14 @@ package com.anikur.practice;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
 @Component
 public class Student {
     private String name;
     private int rollNO;
+    @Value("500")
     private int marks;
     @Autowired
     @Qualifier("laptop")

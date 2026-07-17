@@ -12,7 +12,7 @@ public class PracticeApplication {
 		Student service = context.getBean(Student.class);
 		service.setName("uranium");
 		service.setRollNO(101);
-		service.setMarks(200);
+//		service.setMarks(1000);
 		service.print();
 		service.computerCalling();
 	}
