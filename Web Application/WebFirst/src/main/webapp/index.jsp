@@ -11,7 +11,7 @@
 
 <body>
 
-    <form class="calculator-form" action="add" method="POST">
+    <form class="calculator-form" action="add" method="GET">
 
         <h2>Sum Calculator</h2>
 
