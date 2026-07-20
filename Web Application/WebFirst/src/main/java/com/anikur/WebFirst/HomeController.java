@@ -1,8 +1,7 @@
 package com.anikur.WebFirst;
 
-import jakarta.servlet.http.HttpSession;
-import org.jspecify.annotations.NonNull;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
@@ -14,10 +13,10 @@ public class HomeController {
         return "index.jsp";
     }
     @RequestMapping("add")
-    public String add(@RequestParam("number1") int num1, @RequestParam("number2") int num2, @NonNull HttpSession session){
+    public String add(@RequestParam("number1") int num1, @RequestParam("number2") int num2, Model model){
         System.out.println("add controller is working");
-        int result = num1 + num2;
-        session.setAttribute("result", result);
+        int results = num1 + num2;
+        model.addAttribute("result", results);
         return "result.jsp";
     }
 }
