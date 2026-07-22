@@ -38,7 +38,7 @@
         </div>
 
         <button type="submit" class="submit-btn">
-            Calculate Sum
+            submit details
         </button>
 
     </form>
