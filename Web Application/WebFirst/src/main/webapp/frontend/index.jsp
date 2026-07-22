@@ -16,22 +16,22 @@
         <h2>Sum Calculator</h2>
 
         <div class="form-group">
-            <label for="number1">First Number</label>
+            <label for="aid">First Number</label>
             <input
                 type="number"
-                id="number1"
-                name="number1"
+                id="aid"
+                name="aid"
                 placeholder="Enter first number"
                 required
             >
         </div>
 
         <div class="form-group">
-            <label for="number2">Second Number</label>
+            <label for="aname">Second Number</label>
             <input
-                type="number"
-                id="number2"
-                name="number2"
+                type="text"
+                id="aname"
+                name="aname"
                 placeholder="Enter second number"
                 required
             >

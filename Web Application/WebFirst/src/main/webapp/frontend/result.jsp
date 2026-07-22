@@ -1,3 +1,3 @@
 <%@page language="java" %>
 
-<!html><body><h2>Result is here: ${result}</h2></body><html>
+<!html><body><h2>Result is here: ${alien}</h2></body><html>
