@@ -9,6 +9,10 @@ import org.springframework.web.servlet.ModelAndView;
 
 @Controller
 public class HomeController {
+    @ModelAttribute("aid")
+    public int displayId(Alien alien){
+        return alien.getAid();
+    }
     @ModelAttribute("course")
     public String course(){
         return "cse";
