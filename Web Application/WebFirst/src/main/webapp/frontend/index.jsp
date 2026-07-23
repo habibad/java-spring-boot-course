@@ -40,8 +40,6 @@
         <button type="submit" class="submit-btn">
             submit details
         </button>
-
     </form>
-
 </body>
 </html>

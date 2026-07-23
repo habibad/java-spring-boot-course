@@ -9,6 +9,11 @@ import org.springframework.web.servlet.ModelAndView;
 
 @Controller
 public class HomeController {
+    @ModelAttribute("course")
+    public String course(){
+        return "cse";
+    }
+
     @RequestMapping("/")
     public String Home(){
         System.out.println("controller is calling");
